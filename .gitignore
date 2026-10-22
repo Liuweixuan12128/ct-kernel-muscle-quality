@@ -1,0 +1,40 @@
+# Python and R local state
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local operating-system/editor files and Office lock files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+~$*
+*.tmp
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Original images, segmentation volumes and regenerated outputs
+/data/
+/results/
+/figures/
+/out/
+*.dcm
+*.nii
+*.nii.gz
+
+# Do not ignore SourceData/*.csv or Supplementary_Tables.xlsx.
