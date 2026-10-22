@@ -1,0 +1,49 @@
+population,kernel,model,exposure,condition,n,events,HR,lo,hi,P,note
+primary_121,all,full,imat_pct,native,121,44,1.73566449221456,1.15418997186782,2.61008265793479,0.008075643946848,
+primary_121,all,full,imat_pct,slab,121,44,1.56873525670396,1.15392150829006,2.13266698639908,0.0040567273713132,
+primary_121,all,full,imat_pct,gauss,121,44,1.42324301692592,1.10747512950231,1.82904394985257,0.0058227385009272,
+primary_121,all,full,imat_pct,both,121,44,1.42187641108496,1.11753824163234,1.8090947164786,0.0041786887424349,
+primary_121,all,full,smd_window_hu,native,121,44,1.16741645864024,0.796551874562027,1.71095095175498,0.427373372956317,
+primary_121,all,full,smd_window_hu,slab,121,44,1.28837517512452,0.909478500282493,1.82512350908961,0.153867141653288,
+primary_121,all,full,smd_window_hu,gauss,121,44,1.45999674575175,1.02787647312179,2.07378080279606,0.0345528725927722,
+primary_121,all,full,smd_window_hu,both,121,44,1.46601584459699,1.03174668525905,2.08307183082426,0.0328123011931739,
+primary_121,all,full,smd_all_hu,native,121,44,1.47873492766812,1.08117591835124,2.02248029131119,0.0143441244425327,
+primary_121,all,full,smd_all_hu,slab,121,44,1.48707334956694,1.08705661208802,2.03428885156645,0.0130592434112135,
+primary_121,all,full,smd_all_hu,gauss,121,44,1.47109705541417,1.0713928242508,2.01991883598956,0.0170184699619489,
+primary_121,all,full,smd_all_hu,both,121,44,1.48199110869222,1.07974217014317,2.03409453383818,0.0148969690182472,
+primary_121,all,full,sma_cm2,native,121,44,1.50984512890881,0.991260749150394,2.29973023267946,0.0549699118479546,
+primary_121,all,full,sma_cm2,slab,121,44,1.46341834338835,0.98249226580281,2.17975583351344,0.0610527942776382,
+primary_121,all,full,sma_cm2,gauss,121,44,1.43191159586528,0.976094182558908,2.100587069373,0.0663217484049374,
+primary_121,all,full,sma_cm2,both,121,44,1.44502463195017,0.985855356849648,2.11805532366873,0.0591632392530928,
+primary_121,sharp,"reduced (age, sex, stage)",imat_pct,native,74,25,1.93723491281705,1.18903307178926,3.1562445120134,0.0079254961952512,
+primary_121,sharp,"reduced (age, sex, stage)",imat_pct,slab,74,25,1.55538032146921,1.09120820080256,2.21699941645821,0.014578526842793,
+primary_121,sharp,"reduced (age, sex, stage)",imat_pct,gauss,74,25,1.35821295151497,1.01237496272887,1.82219285302204,0.0411486048017858,
+primary_121,sharp,"reduced (age, sex, stage)",imat_pct,both,74,25,1.34937879624708,1.01357491683659,1.796436657533,0.0401353483355131,
+primary_121,sharp,"reduced (age, sex, stage)",smd_window_hu,native,74,25,1.0232838430835,0.619892251550808,1.68918037109858,0.928282843378383,
+primary_121,sharp,"reduced (age, sex, stage)",smd_window_hu,slab,74,25,1.2110779427395,0.800171018830439,1.83299538332934,0.365091670470687,
+primary_121,sharp,"reduced (age, sex, stage)",smd_window_hu,gauss,74,25,1.52378190941318,1.01939114628882,2.2777432547928,0.0400104223277007,
+primary_121,sharp,"reduced (age, sex, stage)",smd_window_hu,both,74,25,1.50352887837332,1.00844403167825,2.2416703526327,0.045364024356968,
+primary_121,sharp,"reduced (age, sex, stage)",smd_all_hu,native,74,25,1.46011516165288,1.02591696193961,2.07807879621948,0.0355447632984572,
+primary_121,sharp,"reduced (age, sex, stage)",smd_all_hu,slab,74,25,1.45189074200346,1.01739210226695,2.07195114058615,0.0398759654506716,
+primary_121,sharp,"reduced (age, sex, stage)",smd_all_hu,gauss,74,25,1.46162961032756,1.02436873532167,2.08553916585069,0.0363713053892124,
+primary_121,sharp,"reduced (age, sex, stage)",smd_all_hu,both,74,25,1.45660923473861,1.01912643218106,2.08189130978095,0.0390207425621552,
+primary_121,sharp,"reduced (age, sex, stage)",sma_cm2,native,74,25,1.94443272148311,1.05670793295541,3.57792204493058,0.0325748364433481,
+primary_121,sharp,"reduced (age, sex, stage)",sma_cm2,slab,74,25,1.68583414256786,0.978839262497626,2.90347645945025,0.0597151359703671,
+primary_121,sharp,"reduced (age, sex, stage)",sma_cm2,gauss,74,25,1.55587505886978,0.945408430351734,2.56053058244086,0.0820114548398071,
+primary_121,sharp,"reduced (age, sex, stage)",sma_cm2,both,74,25,1.55601566610943,0.951466607190345,2.54468704932029,0.0781102745583921,
+primary_121,soft,"reduced (age, sex, stage)",imat_pct,native,47,19,1.52085526022839,0.683552093700924,3.38379582752967,0.304151495404009,nuisance covariate separated (infinite coefficient); exposure estimate finite
+primary_121,soft,"reduced (age, sex, stage)",imat_pct,slab,47,19,1.77031458178113,0.873357089622125,3.58846771350181,0.113108565851654,nuisance covariate separated (infinite coefficient); exposure estimate finite
+primary_121,soft,"reduced (age, sex, stage)",imat_pct,gauss,47,19,2.04384931964076,0.940726970009944,4.44052331289262,0.0709719492390856,nuisance covariate separated (infinite coefficient); exposure estimate finite
+primary_121,soft,"reduced (age, sex, stage)",imat_pct,both,47,19,2.30764179772943,1.04815396588972,5.0805614823082,0.0378198225037381,nuisance covariate separated (infinite coefficient); exposure estimate finite
+primary_121,soft,"reduced (age, sex, stage)",smd_window_hu,native,47,19,1.58281613278386,0.808904115642729,3.09716177944058,0.179990182012767,nuisance covariate separated (infinite coefficient); exposure estimate finite
+primary_121,soft,"reduced (age, sex, stage)",smd_window_hu,slab,47,19,1.6439063414753,0.824096745036681,3.27926068852805,0.158282224480335,nuisance covariate separated (infinite coefficient); exposure estimate finite
+primary_121,soft,"reduced (age, sex, stage)",smd_window_hu,gauss,47,19,1.47586441976187,0.746828837964761,2.91656625292476,0.262704200502499,nuisance covariate separated (infinite coefficient); exposure estimate finite
+primary_121,soft,"reduced (age, sex, stage)",smd_window_hu,both,47,19,1.50024648523118,0.753783884330381,2.98592151309778,0.248047936538641,nuisance covariate separated (infinite coefficient); exposure estimate finite
+primary_121,soft,"reduced (age, sex, stage)",smd_all_hu,native,47,19,1.66483010861914,0.843242122221398,3.28690801553329,0.141909424461414,nuisance covariate separated (infinite coefficient); exposure estimate finite
+primary_121,soft,"reduced (age, sex, stage)",smd_all_hu,slab,47,19,1.73911490027856,0.879735961463725,3.43798681520152,0.111498822254821,nuisance covariate separated (infinite coefficient); exposure estimate finite
+primary_121,soft,"reduced (age, sex, stage)",smd_all_hu,gauss,47,19,1.61480107967864,0.814051407239068,3.20321604230765,0.170285090631306,nuisance covariate separated (infinite coefficient); exposure estimate finite
+primary_121,soft,"reduced (age, sex, stage)",smd_all_hu,both,47,19,1.69359948360764,0.85099519387915,3.37049989413146,0.133490002417004,nuisance covariate separated (infinite coefficient); exposure estimate finite
+primary_121,soft,"reduced (age, sex, stage)",sma_cm2,native,47,19,1.08986378337687,0.570919720475977,2.08050803592188,0.794198270457737,nuisance covariate separated (infinite coefficient); exposure estimate finite
+primary_121,soft,"reduced (age, sex, stage)",sma_cm2,slab,47,19,1.16045398971618,0.606580993778804,2.22007197070086,0.652996781067293,nuisance covariate separated (infinite coefficient); exposure estimate finite
+primary_121,soft,"reduced (age, sex, stage)",sma_cm2,gauss,47,19,1.17723266954665,0.617675011931917,2.24369892172471,0.619996700827602,nuisance covariate separated (infinite coefficient); exposure estimate finite
+primary_121,soft,"reduced (age, sex, stage)",sma_cm2,both,47,19,1.19896604669652,0.626074326108681,2.29608454009905,0.584114617076051,nuisance covariate separated (infinite coefficient); exposure estimate finite

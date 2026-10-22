@@ -1,0 +1,22 @@
+measure,shift,median_abs
+Muscle area (cm²),-3,1.475424568001248
+Muscle area (cm²),-2,0.8328167803026894
+Muscle area (cm²),-1,0.49850683793431827
+Muscle area (cm²),0,0.0
+Muscle area (cm²),1,0.4625513998791817
+Muscle area (cm²),2,1.0019860360773585
+Muscle area (cm²),3,1.3259349590167986
+Density (HU),-3,0.619422435760498
+Density (HU),-2,0.48507213592529297
+Density (HU),-1,0.2550640106201172
+Density (HU),0,0.0
+Density (HU),1,0.2980747222900426
+Density (HU),2,0.479621887207033
+Density (HU),3,0.6359806060791033
+Intramuscular fat (points),-3,0.395086946967389
+Intramuscular fat (points),-2,0.36176822942090814
+Intramuscular fat (points),-1,0.20665883124211337
+Intramuscular fat (points),0,0.0
+Intramuscular fat (points),1,0.19228473113243982
+Intramuscular fat (points),2,0.3457188737203145
+Intramuscular fat (points),3,0.5372492628130852

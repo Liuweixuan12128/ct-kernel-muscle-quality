@@ -1,0 +1,5 @@
+case,input,dice_muscle_native,dice_imat_native,dice_sat_native,dice_vat_native,dice_muscle_harm,dice_imat_harm,dice_sat_harm,dice_vat_harm
+TCGA-38-4629,native,0.741,0.0,0.832,0.901,,,,
+TCGA-38-4629,harm,,,,,0.743,0.0,0.86,0.896
+AMC-038,native,0.579,0.092,0.274,0.064,,,,
+AMC-038,harm,,,,,0.793,0.346,0.94,0.952
