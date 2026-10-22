@@ -1,0 +1,12 @@
+model,HR,lo,hi
+"Primary, date-concordant (121/44)",1.42,1.12,1.81
+Interval-only population (130/46),1.35,1.06,1.7
+CT within 90 days of surgery (110/40),1.47,1.16,1.86
+No T12 edge truncation (114/44),1.44,1.14,1.83
+Soft kernel only (47/19),,,
+"+ contrast-agent field, three levels (121/44)",1.42,1.1,1.83
++ binary contrast field (121/44),1.43,1.11,1.84
++ smoking status (121/44),1.46,1.14,1.89
+Recorded M0 only (95/41),1.56,1.23,2.0
+Recorded M1 excluded (120/43),1.46,1.15,1.86
+M0 with separate T and N terms (95/41),,,
