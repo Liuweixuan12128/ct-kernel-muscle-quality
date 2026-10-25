@@ -1,14 +1,8 @@
 # Figure source data
 
-This directory contains 46 CSV files copied unchanged from the Scientific Reports manuscript package: 39 files in `main/` for Figures 1–7, and 7 files in `supplementary/` for Supplementary Figures S1–S4.
+The current v8 dataset contains 58 byte-identical source CSV files: 36 for main Figures 1–7 and 22 for Supplementary Figures S1–S8. The generated [catalogue](data_catalog.csv) lists the exact columns and row counts. Row counts are not necessarily sample sizes because participants or estimates can occupy several rows.
 
-[data_catalog.csv](data_catalog.csv) lists each file, its figure/panel label, row count, number of columns, exact column names, and a brief description. Paths in that catalogue are relative to the repository root. Row counts exclude the CSV header. Some files contain multiple rows for one participant, processing condition or measurement, so row counts are not necessarily sample sizes.
-
-## File naming
-
-`Figure2_c_d_e_f.csv` contains data for main Figure 2 panels c–f. `SupplementaryFigS1_b_pairs.csv` contains the pair-level data for Supplementary Figure S1b. Names ending in `summary`, `vendor`, `hr` or `icc` contain exported summaries or estimates as specified by their columns.
-
-The files preserve their original labels, numeric precision, identifiers and missing values. CT images, segmentation masks and the complete original clinical or survival modelling inputs are outside this dataset collection.
+Use current figure numbers with the current manuscript. Historical retired filenames are under `archive/2026-10-20` and are excluded from this catalogue. Blank values retain their source meaning and were not filled with zero.
 
 ## Common fields and units
 
@@ -38,4 +32,9 @@ The files preserve their original labels, numeric precision, identifiers and mis
 
 The paired measurement script uses HU windows of −29 to 150 for muscle and −190 to −30 for fat. Percentage differences are expressed in percentage points where the source table compares percentages. Some panel-specific columns use different names or definitions; the exact CSV headers and corresponding script take precedence over this general glossary.
 
-For Supplementary Tables S1–S16, see the workbook at the repository root. Tables S17–S18 are contained in the original supplementary manuscript document rather than in this workbook.
+
+## Absolute-noise processing
+
+The v8 noise-referenced strategy uses liver residual noise and a stated absolute reference (conventionally 25 HU). Muscle-noise reference estimates are sensitivity analyses. The relevant script and column names determine which estimator and filter variant a row represents. Fixed-unit hazard ratios must be interpreted in the stated direction; they must not be combined with per-standard-deviation estimates.
+
+Tables S1–S16 are in the root workbook. Tables S17–S22 have displayed-value exports in `SupplementaryTables/`.

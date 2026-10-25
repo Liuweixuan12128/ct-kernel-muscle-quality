@@ -1,0 +1,9 @@
+Characteristic,NLST pairs,RG pairs
+Pairs (participants),323 (323),14 (14)
+"Age, years, mean ± SD",64.7 ± 5.4,69.0 ± 7.3
+Men,178 (55.1%),9 (64.3%)
+Vendor,GE 148; Siemens 142; Toshiba 17; Philips 16,Siemens 11; GE 3
+Equal slice thickness,289 (89.5%),4 (28.6%)
+Most frequent kernel pairs (soft/sharp),B30F/B50F 133; STANDARD/BONE 119; STANDARD/LUNG 29,B31f/B45f 6; STANDARD/LUNG 2; B30f/B45f 2
+"Muscle noise, soft, HU, median",41.5,23.0
+"Muscle noise, sharp, HU, median",118.2,53.1

@@ -1,11 +1,11 @@
-# Direct third-party Python imports found in the included analysis/figure scripts.
-# Original package versions were not supplied; these are not a tested lockfile.
-# Original project modules, R packages and the dcm2niix executable are separate.
-numpy
-pandas
-scipy
+# Observed direct Python dependencies; not a tested lockfile.
+# External tools, GPU environments and missing project modules are separate.
+PyMuPDF
+idc-index
 matplotlib
 nibabel
+numpy
+pandas
 pydicom
-idc-index
-PyMuPDF
+scikit-image
+scipy

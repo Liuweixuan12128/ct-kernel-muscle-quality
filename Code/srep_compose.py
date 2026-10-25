@@ -1,6 +1,6 @@
 """Compose the Scientific Reports figures from rendered parts as vector PDF, plus a 600-dpi PNG.
-Called by figures/srep_figures.py with a layout JSON: {out, width_mm, gap_mm, figures: {name: [[pdf, clip_mm|null], ...]}}.
-Clips are in mm from the top-left corner of the source page. Parts are stacked top to bottom: blank rows above and
+Called by figures/srep_figures.py with a layout JSON: {out, width_mm, gap_mm, figures: {name: [[pdf, clip_mm|null(, dx_mm)], ...]}}.
+Clips are in mm from the top-left corner of the source page; an optional dx_mm moves the clip to the left. Parts are stacked top to bottom: blank rows above and
 below each clip are trimmed (to MARGIN_MM of the first and last inked row), and consecutive parts are gap_mm apart.
 Needs PyMuPDF (r45 environment)."""
 import json
@@ -29,19 +29,20 @@ def ink_rows(page, clip, dpi=200, thr=242):
 
 for name, parts in spec["figures"].items():
     placed, y = [], MARGIN_MM * MM
-    for p, clip in parts:
+    for p, clip, *dx in parts:
+        dx = (dx[0] if dx else 0.0) * MM
         src = fitz.open(p)
         c = fitz.Rect(*(v * MM for v in clip)) if clip else src[0].rect
         t0, t1 = ink_rows(src[0], c)
         c = fitz.Rect(c.x0, max(c.y0, t0 - MARGIN_MM * MM), c.x1, min(c.y1, t1 + MARGIN_MM * MM))
-        placed.append((src, c, y))
+        placed.append((src, c, y, dx))
         y += c.height + GAP * MM
     H = y - GAP * MM + MARGIN_MM * MM
-    Wf = min(W * MM, max(c.x1 for _, c, _ in placed))
+    Wf = min(W * MM, max(c.x1 - dx for _, c, _, dx in placed))
     doc = fitz.open()
     page = doc.new_page(width=Wf, height=H)
-    for src, c, top in placed:
-        page.show_pdf_page(fitz.Rect(c.x0, top, c.x1, top + c.height), src, 0, clip=c)
+    for src, c, top, dx in placed:
+        page.show_pdf_page(fitz.Rect(c.x0 - dx, top, c.x1 - dx, top + c.height), src, 0, clip=c)
     out = os.path.join(spec["out"], name)
     os.makedirs(os.path.dirname(out), exist_ok=True)
     doc.save(out + ".pdf", garbage=3, deflate=True)

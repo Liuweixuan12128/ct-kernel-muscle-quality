@@ -1,0 +1,17 @@
+Dataset,Noise estimator,Filter,Sharp − soft (points),Within ±2 points,Soft value change (points),Soft images filtered
+NLST (323),"Muscle, SD",In-plane,"−0.04 (−0.1, 0.02)",93%,"−4.5 (−5.1, −4.0)",94%
+NLST (323),"Muscle, SD",5-mm slab + in-plane,"0.01 (−0.05, 0.1)",94%,"−4.6 (−5.2, −4.0)",all (slab)
+NLST (323),"Muscle, robust SD",In-plane,"−0.02 (−0.1, 0.05)",94%,"−4.2 (−4.9, −3.7)",88%
+NLST (323),"Muscle, robust SD",5-mm slab + in-plane,"0.03 (−0.04, 0.1)",94%,"−4.3 (−4.9, −3.8)",all (slab)
+NLST (323),"Liver, SD",In-plane,"0.03 (−0.03, 0.1)",94%,"−4.2 (−4.7, −3.6)",85%
+NLST (323),"Liver, SD",5-mm slab + in-plane,"0.1 (0.04, 0.2)",95%,"−4.2 (−4.8, −3.7)",all (slab)
+NLST (323),"Liver, robust SD (main analysis)",In-plane,"0.02 (−0.04, 0.1)",94%,"−4.1 (−4.7, −3.6)",84%
+NLST (323),"Liver, robust SD (main analysis)",5-mm slab + in-plane,"0.1 (0.05, 0.2)",95%,"−4.2 (−4.8, −3.6)",all (slab)
+RG (14),"Muscle, SD",In-plane,"0.3 (−0.2, 0.8)",100%,"−0.04 (−1.1, 0.0)",36%
+RG (14),"Muscle, SD",5-mm slab + in-plane,"0.2 (−0.1, 0.9)",93%,"−0.1 (−1.1, 0.0)",all (slab)
+RG (14),"Muscle, robust SD",In-plane,"0.4 (−0.02, 1.1)",93%,"0.0 (−0.5, 0.0)",21%
+RG (14),"Muscle, robust SD",5-mm slab + in-plane,"0.4 (0.1, 1.0)",93%,"−0.1 (−0.7, 0.0)",all (slab)
+RG (14),"Liver, SD",In-plane,"0.2 (−0.2, 0.7)",100%,"0.0 (0.0, 0.0)",7%
+RG (14),"Liver, SD",5-mm slab + in-plane,"0.7 (0.3, 1.2)",93%,"0.0 (−0.7, 0.0)",all (slab)
+RG (14),"Liver, robust SD (main analysis)",In-plane,"0.2 (−0.2, 0.7)",100%,"0.0 (0.0, 0.0)",7%
+RG (14),"Liver, robust SD (main analysis)",5-mm slab + in-plane,"0.7 (0.4, 1.2)",93%,"0.0 (−0.7, 0.0)",all (slab)
